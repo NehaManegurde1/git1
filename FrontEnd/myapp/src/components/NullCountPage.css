@@ -1,0 +1,14 @@
+/* NullCountPage.css */
+
+.border-danger {
+    border: 2px solid #dc3545;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  

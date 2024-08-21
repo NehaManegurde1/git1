@@ -1,0 +1,79 @@
+/* Container for the entire login page */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  background-size: cover;
+  padding: 20px;
+}
+
+/* Card styling for the login form */
+.login-card {
+  width: 400px;
+  padding: 40px;
+  background-color: rgba(123, 162, 185, 0.9); /* Slightly transparent background */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Button styling for the login button */
+.login-button {
+  background-color: #2f80ed;
+  border: none;
+  padding: 15px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.login-button:hover {
+  background-color: #56ccf2;
+}
+
+/* Form labels and input field styling */
+.form-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Icon input styling */
+.input-group-text {
+  background-color: #2f80ed;
+  color: rgb(11, 9, 9);
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-control {
+  border-radius: 0 5px 5px 0;
+}
+
+/* Animation for card appearance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 768px) {
+  .login-card {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .login-button {
+    font-size: 1em;
+    padding: 10px;
+  }
+}

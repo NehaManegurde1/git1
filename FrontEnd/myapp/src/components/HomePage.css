@@ -1,0 +1,179 @@
+/* HomePage.css */
+
+/* Apply a gradient background to the entire page */
+.homepage-container {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  min-height: 100vh;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+/* Custom highlight color */
+.highlight {
+  color: #ffd700;
+}
+
+/* Styling for the logo image */
+.homepage-container .mb-4 {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Title styling */
+.display-4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Lead description styling */
+.lead {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Icon styling */
+.icon {
+  color: #ffd700;
+  margin-right: 10px;
+}
+
+/* Explore button styling */
+.explore-button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #ffcc00;
+  transform: translateY(-3px);
+}
+
+/* Modal customization */
+.modal-header, .modal-footer {
+  background-color: #2a5298;
+  color: #fff;
+}
+
+.modal-body {
+  background-color: #1e3c72;
+  color: #fff;
+}
+
+.modal-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.modal-footer .btn-primary {
+  background-color: #ffd700;
+  border: none;
+  font-weight: 600;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #ffcc00;
+}
+/* HomePage.css */
+
+/* Apply a gradient background to the entire page */
+.homepage-container {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  min-height: 100vh;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+/* Custom highlight color */
+.highlight {
+  color: #ffd700;
+}
+
+/* Styling for the logo image */
+.homepage-container .mb-4 {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Title styling */
+.display-4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Lead description styling */
+.lead {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Icon styling */
+.icon {
+  color: #ffd700;
+  margin-right: 10px;
+}
+
+/* Explore button styling */
+.explore-button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #ffcc00;
+  transform: translateY(-3px);
+}
+
+/* Modal customization */
+.modal-header, .modal-footer {
+  background-color: #2a5298;
+  color: #fff;
+}
+
+.modal-body {
+  background-color: #87CEEB; /* Sky blue background color */
+  color: #000;
+}
+
+.modal-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.modal-footer .btn-primary {
+  background-color: #ffd700;
+  border: none;
+  font-weight: 600;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #ffcc00;
+}
+

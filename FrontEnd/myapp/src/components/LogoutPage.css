@@ -1,0 +1,30 @@
+.logout-container {
+    background: linear-gradient(135deg, #f3f4f6, #e2e8f0);
+  }
+  
+  .logout-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .logout-card h2 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .logout-card p {
+    color: #555;
+  }
+  
+  .logout-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .logout-card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  

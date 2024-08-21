@@ -1,0 +1,68 @@
+{
+    "tables": [
+      {
+        "id": 1,
+        "name": "users"
+      },
+      {
+        "id": 2,
+        "name": "categories"
+      },
+      {
+        "id": 3,
+        "name": "blogs"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "role": "Admin"
+      },
+      {
+        "id": 2,
+        "firstName": " ",
+        "lastName": " ",
+        "email": " ",
+        "role": " "
+      },
+      {
+        "id":  3,
+        "firstName": " ",
+        "lastName": " ",
+        "email": "jane.smith@example.com",
+        "role": "User"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Technology",
+        "description": "All about tech"
+      },
+      {
+        "id": 2,
+        "name": "Health",
+        "description": "Health and wellness topics"
+      }
+    ],
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Introduction to React",
+        "content": "React is a JavaScript library for building user interfaces...",
+        "author": "John Doe",
+        "categoryId": 1
+      },
+      {
+        "id": 2,
+        "title": "Staying Healthy in the Digital Age",
+        "content": "Health is wealth, especially in today's fast-paced world...",
+        "author": "Jane Smith",
+        "categoryId": 2
+      }
+    ]
+  }
+  

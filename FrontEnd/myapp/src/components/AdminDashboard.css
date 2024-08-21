@@ -1,0 +1,71 @@
+/* AdminDashboard.css */
+.dashboard {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .user-editing-button {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .data-validation-button {
+    background-color: #2196F3; /* Blue */
+  }
+  
+  .logout-button {
+    background-color: #f44336; /* Red */
+  }
+  .dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dashboard-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .user-editing-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .data-validation-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+  }
+  
